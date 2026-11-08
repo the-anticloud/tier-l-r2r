@@ -1,0 +1,256 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:978eda58-5124-5f68-87c4-837b48599544",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:08:40Z",
+    "component": {
+      "type": "application",
+      "name": "L_R2R",
+      "version": "9c5a94d151f9",
+      "bom-ref": "pkg:generic/anticloud/L_R2R@9c5a94d151f9",
+      "purl": "pkg:generic/anticloud/L_R2R@9c5a94d151f9",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "9c5a94d151f90876bd7eb860f300a8fd662dc481"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/SciPhi-AI/R2R.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "aiofiles",
+      "version": ">=24.1.0",
+      "purl": "pkg:pypi/aiofiles@24.1.0",
+      "bom-ref": "pypi/aiofiles@>=24.1.0"
+    },
+    {
+      "type": "library",
+      "name": "alembic",
+      "version": ">=1.13.3",
+      "purl": "pkg:pypi/alembic@1.13.3",
+      "bom-ref": "pypi/alembic@>=1.13.3"
+    },
+    {
+      "type": "library",
+      "name": "fastapi",
+      "version": ">=0.115.11",
+      "purl": "pkg:pypi/fastapi@0.115.11",
+      "bom-ref": "pypi/fastapi@>=0.115.11"
+    },
+    {
+      "type": "library",
+      "name": "httpx",
+      "version": ">=0.27.0",
+      "purl": "pkg:pypi/httpx@0.27.0",
+      "bom-ref": "pypi/httpx@>=0.27.0"
+    },
+    {
+      "type": "library",
+      "name": "openai",
+      "version": ">=1.99.0",
+      "purl": "pkg:pypi/openai@1.99.0",
+      "bom-ref": "pypi/openai@>=1.99.0"
+    },
+    {
+      "type": "library",
+      "name": "python-dotenv",
+      "version": ">=1.0.1",
+      "purl": "pkg:pypi/python-dotenv@1.0.1",
+      "bom-ref": "pypi/python-dotenv@>=1.0.1"
+    },
+    {
+      "type": "library",
+      "name": "psycopg-binary",
+      "version": ">=3.2.3",
+      "purl": "pkg:pypi/psycopg-binary@3.2.3",
+      "bom-ref": "pypi/psycopg-binary@>=3.2.3"
+    },
+    {
+      "type": "library",
+      "name": "requests",
+      "version": ">=2.31.0",
+      "purl": "pkg:pypi/requests@2.31.0",
+      "bom-ref": "pypi/requests@>=2.31.0"
+    },
+    {
+      "type": "library",
+      "name": "tiktoken",
+      "version": ">=0.8.0",
+      "purl": "pkg:pypi/tiktoken@0.8.0",
+      "bom-ref": "pypi/tiktoken@>=0.8.0"
+    },
+    {
+      "type": "library",
+      "name": "toml",
+      "version": ">=0.10.2",
+      "purl": "pkg:pypi/toml@0.10.2",
+      "bom-ref": "pypi/toml@>=0.10.2"
+    },
+    {
+      "type": "library",
+      "name": "types-requests",
+      "version": ">=2.31.0",
+      "purl": "pkg:pypi/types-requests@2.31.0",
+      "bom-ref": "pypi/types-requests@>=2.31.0"
+    },
+    {
+      "type": "library",
+      "name": "types-aiofiles",
+      "version": ">=24.1.0.20240626",
+      "purl": "pkg:pypi/types-aiofiles@24.1.0.20240626",
+      "bom-ref": "pypi/types-aiofiles@>=24.1.0.20240626"
+    },
+    {
+      "type": "library",
+      "name": "typing-extensions",
+      "version": ">=4.12.2",
+      "purl": "pkg:pypi/typing-extensions@4.12.2",
+      "bom-ref": "pypi/typing-extensions@>=4.12.2"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": ">=2.10.6",
+      "purl": "pkg:pypi/pydantic@2.10.6",
+      "bom-ref": "pypi/pydantic@>=2.10.6"
+    },
+    {
+      "type": "library",
+      "name": "python-json-logger",
+      "version": ">=3.2.1",
+      "purl": "pkg:pypi/python-json-logger@3.2.1",
+      "bom-ref": "pypi/python-json-logger@>=3.2.1"
+    },
+    {
+      "type": "library",
+      "name": "filetype",
+      "version": ">=1.2.0",
+      "purl": "pkg:pypi/filetype@1.2.0",
+      "bom-ref": "pypi/filetype@>=1.2.0"
+    },
+    {
+      "type": "library",
+      "name": "@jest/globals",
+      "version": "^29.7.0",
+      "purl": "pkg:npm/@jest/globals@^29.7.0",
+      "bom-ref": "npm/@jest/globals@^29.7.0"
+    },
+    {
+      "type": "library",
+      "name": "@rrweb/types",
+      "version": "2.0.0-alpha.17",
+      "purl": "pkg:npm/@rrweb/types@2.0.0-alpha.17",
+      "bom-ref": "npm/@rrweb/types@2.0.0-alpha.17"
+    },
+    {
+      "type": "library",
+      "name": "axios",
+      "version": "^1.8.4",
+      "purl": "pkg:npm/axios@^1.8.4",
+      "bom-ref": "npm/axios@^1.8.4"
+    },
+    {
+      "type": "library",
+      "name": "form-data",
+      "version": "^4.0.1",
+      "purl": "pkg:npm/form-data@^4.0.1",
+      "bom-ref": "npm/form-data@^4.0.1"
+    },
+    {
+      "type": "library",
+      "name": "rrweb-snapshot",
+      "version": "2.0.0-alpha.4",
+      "purl": "pkg:npm/rrweb-snapshot@2.0.0-alpha.4",
+      "bom-ref": "npm/rrweb-snapshot@2.0.0-alpha.4"
+    },
+    {
+      "type": "library",
+      "name": "uuid",
+      "version": "^10.0.0",
+      "purl": "pkg:npm/uuid@^10.0.0",
+      "bom-ref": "npm/uuid@^10.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@rrweb/record",
+      "version": "2.0.0-alpha.17",
+      "purl": "pkg:npm/@rrweb/record@2.0.0-alpha.17",
+      "bom-ref": "npm/@rrweb/record@2.0.0-alpha.17"
+    },
+    {
+      "type": "library",
+      "name": "@types/jest",
+      "version": "^29.5.14",
+      "purl": "pkg:npm/@types/jest@^29.5.14",
+      "bom-ref": "npm/@types/jest@^29.5.14"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^20.17.9",
+      "purl": "pkg:npm/@types/node@^20.17.9",
+      "bom-ref": "npm/@types/node@^20.17.9"
+    },
+    {
+      "type": "library",
+      "name": "@types/uuid",
+      "version": "^10.0.0",
+      "purl": "pkg:npm/@types/uuid@^10.0.0",
+      "bom-ref": "npm/@types/uuid@^10.0.0"
+    },
+    {
+      "type": "library",
+      "name": "jest",
+      "version": "^29.7.0",
+      "purl": "pkg:npm/jest@^29.7.0",
+      "bom-ref": "npm/jest@^29.7.0"
+    },
+    {
+      "type": "library",
+      "name": "prettier",
+      "version": "^3.4.2",
+      "purl": "pkg:npm/prettier@^3.4.2",
+      "bom-ref": "npm/prettier@^3.4.2"
+    },
+    {
+      "type": "library",
+      "name": "ts-jest",
+      "version": "^29.2.5",
+      "purl": "pkg:npm/ts-jest@^29.2.5",
+      "bom-ref": "npm/ts-jest@^29.2.5"
+    },
+    {
+      "type": "library",
+      "name": "ts-node",
+      "version": "^10.9.2",
+      "purl": "pkg:npm/ts-node@^10.9.2",
+      "bom-ref": "npm/ts-node@^10.9.2"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^5.7.2",
+      "purl": "pkg:npm/typescript@^5.7.2",
+      "bom-ref": "npm/typescript@^5.7.2"
+    }
+  ]
+}
